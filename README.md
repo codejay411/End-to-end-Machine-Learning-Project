@@ -62,26 +62,6 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-import dagshub
-dagshub.init(repo_owner='jaypr202', repo_name='End-to-end-Machine-Learning-Project', mlflow=True)
-
-import mlflow
-with mlflow.start_run():
-  mlflow.log_param('parameter name', 'value')
-  mlflow.log_metric('metric name', 1)
-
-Run this to export as env variables:
-
-```bash
-
-set MLFLOW_TRACKING_URI=https://dagshub.com/jaypr202/End-to-end-Machine-Learning-Project.mlflow
-
-set MLFLOW_TRACKING_USERNAME=jaypr202
-
-set MLFLOW_TRACKING_PASSWORD=e8fdef6144d9428fc5eeafc80578fcb495e73fb4
-
-```
-
 
 
 # AWS-CICD-Deployment-with-Github-Actions
